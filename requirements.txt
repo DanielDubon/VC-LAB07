@@ -1,0 +1,22 @@
+# PyTorch — Apple Silicon (MPS). Instalar con:
+#   pip install -r requirements.txt
+# No usar índices CUDA; el soporte MPS viene incluido en las wheels estándar.
+torch>=2.3.0
+torchvision>=0.18.0
+torchaudio>=2.3.0
+
+# Dataset
+kagglehub>=0.3.0
+
+# ML utilities
+scikit-learn>=1.4.0
+numpy>=1.26.0
+
+# Visualización
+matplotlib>=3.8.0
+Pillow>=10.3.0
+
+# Jupyter
+jupyter>=1.0.0
+notebook>=7.2.0
+ipykernel>=6.29.0

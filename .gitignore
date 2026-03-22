@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Model weights
+*.pth
+*.pt
+*.onnx
+*.pkl
+
+# Dataset cache (kagglehub descarga aquí por defecto)
+~/.cache/kagglehub/
+chest_xray/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDEs
+.vscode/
+.idea/
+
+# Distribución / build
+dist/
+build/
+*.egg-info/
